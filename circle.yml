@@ -6,7 +6,7 @@ machine:
 
 dependencies:
   pre:
-    - sude pip install -upgrade pip
+    - sudo pip install -upgrade pip
     - sudo pip install docker-compose
 
 test:
